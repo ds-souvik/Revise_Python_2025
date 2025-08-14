@@ -12,7 +12,7 @@ print(f"New sugar amount id: {id(sugar_amount)}")
 
 '''Checking the mutability property of set'''
 
-print("******CHANGE DATATYPE: SET******")
+print("***** CHANGE DATATYPE: SET ******")
 
 spice_mix = set() 
 
