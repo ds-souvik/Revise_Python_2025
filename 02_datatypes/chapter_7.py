@@ -1,4 +1,4 @@
-'''
+''' Exercise
 Shopping List
 
 You’re building a shopping list feature in a grocery app. You need to support various list operations such as adding items, removing them, merging with others, and handling user inputs from text.
