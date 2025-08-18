@@ -11,5 +11,6 @@ Task:
 """
 #ternary operator
 order_input = int(input("Order amount: "))
-print(f"{'Congratulations! Free Delivery' if order_input > 300 else ('Sorry, Invalid input. Please try again' 
-                                                     if order_input < 0 else 'Delivery charges: 30 rs')}")
+print(f"{'Congratulations! Free Delivery' if order_input > 300 
+         else ('Sorry, Invalid input. Please try again' 
+               if order_input < 0 else 'Delivery charges: 30 rs')}")
