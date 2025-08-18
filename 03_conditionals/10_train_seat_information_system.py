@@ -22,6 +22,6 @@ def train_seat_info(coach_type):
 
 user_name = input("Please tell us your name: ")
 
-coach_info = input(f"Hello {user_name}, please let us know your coach type: ").lower()
+coach_info = input(f"Hello {user_name}, please let us know your coach type:(Sleeper, AC, General, Luxury) ").lower()
 
 print(train_seat_info(coach_info))
