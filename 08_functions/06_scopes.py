@@ -31,7 +31,7 @@ print(outer_chai_counter())
 
 #------------------------------------------------------------------------------------
 
-print("Concept 3: Overriding enclosing scope \n")
+print("Concept 3: Overriding enclosing scope. Only the variable's value has chaged only inside the nested function \n")
 def outer_chai_counter():
     chai_order = "Lemon"  #enclosing scope
 
